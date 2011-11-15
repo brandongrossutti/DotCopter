@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1A61ED72-EF55-4663-A11A-3D56CCCB1DAA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DotCopter.Configurator</RootNamespace>
+    <AssemblyName>DotCopter.Configurator</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="UserControls\ucI2cSettings.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\ucI2cSettings.Designer.cs">
+      <DependentUpon>ucI2cSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ucLoopSettings.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\ucLoopSettings.Designer.cs">
+      <DependentUpon>ucLoopSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ucMotors.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\ucMotors.Designer.cs">
+      <DependentUpon>ucMotors.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ucPID.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\ucPID.Designer.cs">
+      <DependentUpon>ucPID.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmConfigurator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConfigurator.Designer.cs">
+      <DependentUpon>frmConfigurator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Supported\HardwareItem.cs" />
+    <Compile Include="Supported\MicroControllers.cs" />
+    <Compile Include="Supported\Motors.cs" />
+    <Compile Include="MultiCopterSupportedConfiguration.cs" />
+    <Compile Include="Supported\PidAlgorithm.cs" />
+    <Compile Include="Supported\Radio.cs" />
+    <Compile Include="Supported\Sensors.cs" />
+    <Compile Include="Settings\ControllerLoopSettings.cs" />
+    <Compile Include="Settings\MicrocontrollerSettings.cs" />
+    <Compile Include="Settings\MotorSettings.cs" />
+    <Compile Include="MultiCopter.cs" />
+    <Compile Include="Settings\Vector3D.cs" />
+    <Compile Include="Settings\PidSettings.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Settings\SensorSettings.cs" />
+    <Compile Include="Settings\RadioSettings.cs" />
+    <EmbeddedResource Include="UserControls\ucI2cSettings.resx">
+      <DependentUpon>ucI2cSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ucLoopSettings.resx">
+      <DependentUpon>ucLoopSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ucMotors.resx">
+      <DependentUpon>ucMotors.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ucPID.resx">
+      <DependentUpon>ucPID.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConfigurator.resx">
+      <DependentUpon>frmConfigurator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DefaultConfiguration.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Treeview.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

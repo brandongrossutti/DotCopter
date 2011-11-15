@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<MultiCopterSupportedConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MicroControllers>
+      <Boards>
+        <HardwareItem>
+          <Name>Netduino</Name>
+        </HardwareItem>
+        <HardwareItem>
+          <Name>FezPanda I</Name>
+        </HardwareItem>
+        <HardwareItem>
+          <Name>FezPanda II</Name>
+        </HardwareItem>          
+      </Boards>
+  </MicroControllers>
+  <Sensors>
+    <Multifunctional>
+      <HardwareItem>
+        <Name>9DOF SEN10321</Name>
+      </HardwareItem>
+    </Multifunctional>
+    <Gyros>
+      <HardwareItem>
+        <Name>ITG3200</Name>
+      </HardwareItem>
+    </Gyros>
+    <Accelleromters>
+      <HardwareItem>
+        <Name>BMA180</Name>
+      </HardwareItem>
+    </Accelleromters>
+  </Sensors>
+  <Motors>
+    <AllMotors>
+      <HardwareItem>
+        <Name>Default Motors</Name>
+      </HardwareItem>
+    </AllMotors>
+  </Motors>
+  <Radio>
+    <Radios>
+      <HardwareItem>
+        <Name>Default Radio</Name>
+      </HardwareItem>
+    </Radios>
+  </Radio>
+  <PidAlgorithm>
+    <Strategies>
+      <string>Windup Guard Strategy</string>
+    </Strategies>
+  </PidAlgorithm>
+</MultiCopterSupportedConfiguration>

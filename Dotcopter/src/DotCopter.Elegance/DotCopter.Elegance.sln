@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotCopter.Elegance", "DotCopter.Elegance\DotCopter.Elegance.csproj", "{E9BBA2F7-88A2-4C80-A7D6-A7078D3A75CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E9BBA2F7-88A2-4C80-A7D6-A7078D3A75CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9BBA2F7-88A2-4C80-A7D6-A7078D3A75CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9BBA2F7-88A2-4C80-A7D6-A7078D3A75CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9BBA2F7-88A2-4C80-A7D6-A7078D3A75CF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F6EB07DE-D342-403A-AA4C-B7D375EF2D05}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Wolverton.Web.CssFriendlyAdapters</RootNamespace>
+    <AssemblyName>Wolverton.Web.CssFriendlyAdapters</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Adapters\ChangePasswordAdapter.cs" />
+    <Compile Include="Adapters\CompositeDataBoundControlAdapter.cs" />
+    <Compile Include="Adapters\CreateUserWizardAdapter.cs" />
+    <Compile Include="Adapters\DataListAdapter.cs" />
+    <Compile Include="Adapters\DetailsViewAdapter.cs" />
+    <Compile Include="Adapters\FormViewAdapter.cs" />
+    <Compile Include="Adapters\GridViewAdapter.cs" />
+    <Compile Include="Adapters\IMenuAdapterUrlResolver.cs" />
+    <Compile Include="Adapters\LoginAdapter.cs" />
+    <Compile Include="Adapters\LoginStatusAdapter.cs" />
+    <Compile Include="Adapters\MenuAdapter.cs" />
+    <Compile Include="Adapters\PasswordRecoveryAdapter.cs" />
+    <Compile Include="Adapters\TreeViewAdapter.cs" />
+    <Compile Include="Adapters\WebControlAdapterExtender.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CSS\BrowserSpecific\IEMenu6.css" />
+    <Content Include="CSS\ChangePassword.css" />
+    <Content Include="CSS\CreateUserWizard.css" />
+    <Content Include="CSS\DataList.css" />
+    <Content Include="CSS\DetailsView.css" />
+    <Content Include="CSS\FormView.css" />
+    <Content Include="CSS\GridView.css" />
+    <Content Include="CSS\Import.css" />
+    <Content Include="CSS\Login.css" />
+    <Content Include="CSS\LoginStatus.css" />
+    <Content Include="CSS\Menu.css" />
+    <Content Include="CSS\PasswordRecovery.css" />
+    <Content Include="CSS\TreeView.css" />
+    <Content Include="JavaScript\AdapterUtils.js" />
+    <Content Include="JavaScript\MenuAdapter.js" />
+    <Content Include="JavaScript\TreeViewAdapter.js" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

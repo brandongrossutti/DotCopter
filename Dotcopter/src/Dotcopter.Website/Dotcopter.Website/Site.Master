@@ -1,0 +1,52 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Dotcopter.Website.SiteMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>Sildon Image Consulting, Image Consultant - Vancouver</title>
+    <meta name="google-site-verification" content="GCFDREzuQzm8D5sniW0q4czXKuLrRk9Qey2f7e13Juo" />
+    <link rel="stylesheet" type="text/css" href="Styles/site.css" />
+    <script type="text/javascript">
+        function fnWriteEmailTarget(_EmailAddress) {
+            document.write('<a href=\"mailto:' + _EmailAddress + '@sildon.com">');
+            document.write(_EmailAddress + '@dotcopter.net</a>');
+        }
+    </script>
+</head>
+<body class="body">
+    <form id="form1" runat="server">
+    <div class="Wrapper">
+        <!--<asp:SiteMapDataSource ID="SubNavigationMenuSource" StartFromCurrentNode="true" runat="server" />-->
+        <div class="TopBannerDiv">
+            <div class="Logo">
+            </div>
+            <div class="ImageRotator">
+            </div>
+            <div class="Motto">
+            </div>
+        </div>
+        <div id="ContentDiv">
+            <div id="MainContentDiv">
+                <asp:ContentPlaceHolder ID="MainContentPlaceHolder" runat="server" />
+            </div>
+        </div>
+        <div class="Footer">
+            Copyright © 2011 Dotcopter, Vancouver, Canada, All rights reserved.
+        </div>
+    </div>
+    </form>
+<script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-21408821-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function () {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+</script>
+</body>
+</html>

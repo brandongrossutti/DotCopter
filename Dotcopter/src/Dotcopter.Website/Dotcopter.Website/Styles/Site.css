@@ -1,0 +1,105 @@
+﻿.body
+{
+	background-color: #000000;
+}
+
+.Wrapper
+{
+	font-family:  Verdana, Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+    width: 1012px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:10px;
+    background-color: #000000;
+    font-size: 12px;
+}
+
+.Footer {
+	text-align:center;
+	height:10px;
+	width:1000px;
+	margin: 5px;
+	background-color:#00171F;
+	vertical-align:middle;
+}
+
+#TopNavigation
+{
+	margin-bottom:2px;
+	 font-size: 12px;
+}
+
+#ContentDiv
+{
+	width:1000px;
+	height:400px;
+	background-repeat:repeat-x;
+	background-image: url('../Images/bgSlice.jpg');
+}
+
+#MainContentDiv
+{
+	padding:15px;
+	width:500px;
+	height:250px;
+}
+
+.TopBannerDiv
+{
+    background-color:#00171F;
+	font-family:  Verdana, Arial, Helvetica, sans-serif;
+	width: 1000px;
+	height: 405px;
+}
+
+.Logo
+{
+	background-image: url('../Images/logo.png');
+	width:502px;
+	height:92px;
+	margin-top:70px;
+	float:left;
+	display:none;
+	
+}
+
+.ImageRotator
+{
+	width:496px;
+	height:380px;
+	float:right;
+	background-image: url('../Images/Rotate1.jpg');
+}
+
+.Motto
+{
+	margin-left:90px;
+	width:381px;
+	height:133px;
+	margin-top:50px;
+	float:left;
+	background-image: url('../Images/ImageIsEverything.png');
+	display:none;
+}
+.h2
+{
+	font-size: 14px;
+	font-weight:bold;
+	text-align: center;
+}
+
+.h1
+{
+	font-size: 13px;
+	font-weight:bold;
+	text-align: center;
+}
+
+a
+{
+	color: #58A1BC;
+	text-decoration: none;
+}
+
+

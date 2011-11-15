@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dotcopter.Website", "Dotcopter.Website\Dotcopter.Website.csproj", "{131118F2-FAE0-4E1F-82E0-729D1F25105E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wolverton.Web.CssFriendlyAdapters", "DotCopter.Web.CssFriendlyAdapters\Wolverton.Web.CssFriendlyAdapters.csproj", "{F6EB07DE-D342-403A-AA4C-B7D375EF2D05}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{131118F2-FAE0-4E1F-82E0-729D1F25105E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{131118F2-FAE0-4E1F-82E0-729D1F25105E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{131118F2-FAE0-4E1F-82E0-729D1F25105E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{131118F2-FAE0-4E1F-82E0-729D1F25105E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6EB07DE-D342-403A-AA4C-B7D375EF2D05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6EB07DE-D342-403A-AA4C-B7D375EF2D05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6EB07DE-D342-403A-AA4C-B7D375EF2D05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6EB07DE-D342-403A-AA4C-B7D375EF2D05}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

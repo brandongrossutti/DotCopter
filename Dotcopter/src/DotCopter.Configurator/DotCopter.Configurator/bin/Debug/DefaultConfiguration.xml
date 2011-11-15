@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<MultiCopter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MulticopterType>Quadcopter</MulticopterType>
+  <MotorSettings>
+    <SafeOutput>0</SafeOutput>
+    <MinimumOutput>20</MinimumOutput>
+    <MaximumOutput>80</MaximumOutput>
+    <Motor1Pin>GPIO_PIN_D10</Motor1Pin>
+    <Motor2Pin>GPIO_PIN_D5</Motor2Pin>
+    <Motor3Pin>GPIO_PIN_D9</Motor3Pin>
+    <Motor4Pin>GPIO_PIN_D6</Motor4Pin>
+    <Motor5Pin />
+    <Motor6Pin />
+    <Motor7Pin />
+    <Motor8Pin />
+    <Name>Default Motors</Name>
+  </MotorSettings>
+  <ControllerLoopSettings>
+    <RadioLoopFrequency>10</RadioLoopFrequency>
+    <SensorLoopFrequency>50</SensorLoopFrequency>
+    <ControlAlgorithmLoopFrequency>50</ControlAlgorithmLoopFrequency>
+    <MotorLoopFrequency>50</MotorLoopFrequency>
+    <TelemetryLoopFrequency>10</TelemetryLoopFrequency>
+    <LoopUnit>10000000</LoopUnit>
+  </ControllerLoopSettings>
+  <SensorSettings>
+    <Gyro>BMA180</Gyro>
+    <MultiFunctional>No MultiFunctional Sensor</MultiFunctional>
+    <Accellerometer>No Accellerometer Sensor</Accellerometer>
+  </SensorSettings>
+  <PidSettings>
+    <Strategy>Windup Guard Strategy</Strategy>
+    <ProportionalGain>
+      <X>0.2</X>
+      <Y>0</Y>
+      <Z>0.4</Z>
+    </ProportionalGain>
+    <IntegralGain>
+      <X>0.2</X>
+      <Y>0</Y>
+      <Z>0.4</Z>
+    </IntegralGain>
+    <DerivativeGain>
+      <X>0.5</X>
+      <Y>0</Y>
+      <Z>0</Z>
+    </DerivativeGain>
+    <WindupLimit>
+      <X>10</X>
+      <Y>10</Y>
+      <Z>10</Z>
+    </WindupLimit>
+  </PidSettings>
+  <MicrocontrollerSettings>
+    <ControllerType>Netduino</ControllerType>
+  </MicrocontrollerSettings>
+  <RadioSettings>
+    <SensitivityFactor>1000</SensitivityFactor>
+    <Name>Default Radio</Name>
+  </RadioSettings>
+</MultiCopter>

@@ -1,0 +1,15 @@
+E:\SourceControl\Fun Projects\Dotcopter\trunk\src\DotCopter.Configurator\DotCopter.Configurator\bin\Debug\DefaultConfiguration.xml
+E:\SourceControl\Fun Projects\Dotcopter\trunk\src\DotCopter.Configurator\DotCopter.Configurator\bin\Debug\Treeview.xml
+E:\SourceControl\Fun Projects\Dotcopter\trunk\src\DotCopter.Configurator\DotCopter.Configurator\bin\Debug\DotCopter.Configurator.exe
+E:\SourceControl\Fun Projects\Dotcopter\trunk\src\DotCopter.Configurator\DotCopter.Configurator\bin\Debug\DotCopter.Configurator.pdb
+E:\SourceControl\Fun Projects\Dotcopter\trunk\src\DotCopter.Configurator\DotCopter.Configurator\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\SourceControl\Fun Projects\Dotcopter\trunk\src\DotCopter.Configurator\DotCopter.Configurator\obj\x86\Debug\DotCopter.Configurator.UserControls.ucI2cSettings.resources
+E:\SourceControl\Fun Projects\Dotcopter\trunk\src\DotCopter.Configurator\DotCopter.Configurator\obj\x86\Debug\DotCopter.Configurator.UserControls.ucLoopSettings.resources
+E:\SourceControl\Fun Projects\Dotcopter\trunk\src\DotCopter.Configurator\DotCopter.Configurator\obj\x86\Debug\DotCopter.Configurator.UserControls.ucMotors.resources
+E:\SourceControl\Fun Projects\Dotcopter\trunk\src\DotCopter.Configurator\DotCopter.Configurator\obj\x86\Debug\DotCopter.Configurator.UserControls.ucPID.resources
+E:\SourceControl\Fun Projects\Dotcopter\trunk\src\DotCopter.Configurator\DotCopter.Configurator\obj\x86\Debug\DotCopter.Configurator.frmConfigurator.resources
+E:\SourceControl\Fun Projects\Dotcopter\trunk\src\DotCopter.Configurator\DotCopter.Configurator\obj\x86\Debug\DotCopter.Configurator.Properties.Resources.resources
+E:\SourceControl\Fun Projects\Dotcopter\trunk\src\DotCopter.Configurator\DotCopter.Configurator\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\SourceControl\Fun Projects\Dotcopter\trunk\src\DotCopter.Configurator\DotCopter.Configurator\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\SourceControl\Fun Projects\Dotcopter\trunk\src\DotCopter.Configurator\DotCopter.Configurator\obj\x86\Debug\DotCopter.Configurator.exe
+E:\SourceControl\Fun Projects\Dotcopter\trunk\src\DotCopter.Configurator\DotCopter.Configurator\obj\x86\Debug\DotCopter.Configurator.pdb
